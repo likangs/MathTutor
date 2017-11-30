@@ -155,7 +155,6 @@ h2 {
 	height:1200px;
 	padding-bottom:6%;
 	color:#607d8b;
-	text-align: center;
 }
 
 #howdw .circle {
@@ -176,7 +175,7 @@ h2 {
 }
 
 #howdw .line{
-	top:1516px;
+	margin-top:100px;
 	width:4px;
 	height:1000px;
 	background-color:#b0bec5;
@@ -188,85 +187,59 @@ h2 {
 
 #howdw .steps img{
 	height:128px;
-	vertical-align: middle;
+	vertical-align: top;
+  display: inline-block;
+  margin-left: 110px;
 }
 
 .steps {
-  display: none;
+  /*display: none;*/
+  /*background-color: red;*/
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  padding-left: 50%;
+  margin-left: -200px;
 }
 
 .steps .text {
-    width: 260px;
+  width: 150px;
     text-align: left;
     font-family:sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 0.4px;
 	color:#607d8b;
-	margin-left:30px;
 	height:160px;
+  display: inline-block;
 }
 
-.pull-right {
-    float: right;
-    margin-right: 200px;
+.step1 {
+  margin-top: 80px;
 }
 
-.pull-left{
-    float: left;
-    margin-left:200px;
+.step2 {
+  margin-top: 280px;
 }
 
-
-.step1 .text .pull-left {
-    margin: 300px;
+.step3 {
+  margin-top: 480px;
 }
 
-.step1 .img .pull-right {
-	margin-top:118px; 
-	margin-right: 300px;
+.step4 {
+  margin-top: 680px;
 }
 
-.step2 .text .pull-right {
-    margin-top:85px;
-    text-align: right;
-    margin-right: 300px;
+.step5 {
+  margin-top: 880px;
 }
 
-.step2 .img .pull-left{
-    margin-top:30px;
-    margin-left: 300px;
+.reverse img {
+  margin-left: 0 !important;
 }
 
-.step3 .text .pull-left {
-    margin-top:75px;
-    margin-left: 300px;
-}
-
-.step3 .img .pull-right{
-    margin-top:5px;
-    margin-right: 300px;
-}
-
-.step4 .text .pull-right {
-    margin-top:85px;
-    text-align: right;
-    margin-right: 300px;
-}
-
-.step4 .img .pull-left{
-    margin-top:28px;
-    margin-left: 300px;
-}
-
-.step5 .text .pull-left {
-    margin-top:88px;
-    margin-left: 300px;
-}
-
-.step5 .img .pull-right{
-    margin-top:15px;
-    margin-right: 300px;
+.reverse .text {
+  margin-left: 125px;
 }
 
 #teacher {
@@ -394,26 +367,27 @@ footer {
 }
 
 .circle1{
-    top:1516px;
+    margin-top:100px;
 }
 
 .circle2{
-    top:1716px;
+    margin-top:300px;
 }
 
 .circle3{
-    top:1916px;
+    margin-top:500px;
 }
 
 .circle4{
-    top:2116px;
+    margin-top:700px;
 }
 
 .circle5{
-    top:2316px;
+    margin-top:900px;
 }
 
 /*Responsive*/
+/*
 @media(max-width:768px){
     h1 {
         font-size: 32px;
@@ -459,4 +433,4 @@ footer {
     }
 
 }
-
+*/
